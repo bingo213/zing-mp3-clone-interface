@@ -1,0 +1,65 @@
+.body{
+    width: 1026px;
+    margin: auto;
+    padding-top: 150px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.banner img{
+    width: 1036px;
+    border-radius: 4px;
+    margin-left: -10px;
+}
+
+.banner .dang-nhap {
+    background-image: url('./img/banner-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 3px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.dang-nhap .icon-logo-mp3{
+    width: 40px;
+    height: 40px;
+    background-image: url('./img/logo-mp-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.dang-nhap p{
+    display: inline;
+    height: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0px 20px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.dang-nhap button{
+    width: 110px;
+    height: 33px;
+    background-color: #fdd100;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.dang-nhap button:hover{
+    color: #65509e;
+    background-color: white;
+}
+
