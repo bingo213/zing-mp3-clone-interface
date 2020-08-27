@@ -1,0 +1,98 @@
+.column {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.column .song {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    padding: 7px 10px;
+    position: relative;
+    border-radius: 4px;
+    margin: 5px 0px;
+}
+
+.column .img-song,
+.column .play,
+.column img {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.column .img-song {
+    margin-right: 10px;
+}
+
+.song .play {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    opacity: 0;
+}
+.column .fa-play{
+    position: absolute;
+    top: 12.5px;
+    left: 14px;
+    font-size: 15px;
+}
+
+.column .fas,
+.fa-ellipsis-h,
+a,
+.column .info,
+.column .song-name,
+.column .singer {
+    background-color: transparent;
+}
+
+.info .small{
+    width: 250px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+.column .circle {
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.column .icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f1f1;
+    width: 80px;
+    height: 54px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0;
+}
+
+.column .fa-microphone-alt, .column .fa-ellipsis-h{
+    position: absolute;
+    top: 6px;
+    left: 7px;
+    color: #32323d;
+}
+.column .fa-ellipsis-h{left:  5px;}
+
+.column .song:hover .icon, .column .song:hover .play{
+    opacity: 1;
+}
+
+.column .song:hover{
+    background-color: #f1f1f1;
+}
+
+.column .circle:hover{
+    background-color: #b3b2b288;
+}
