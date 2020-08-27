@@ -88,7 +88,7 @@
     background-color: transparent;
 }
 
-.overlay .fa-heart, .fa-ellipsis-h{
+.overlay .fa-heart, .overlay .fa-ellipsis-h{
     font-size: 20px;
     background-color: transparent;
     color: white;

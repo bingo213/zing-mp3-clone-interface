@@ -1,3 +1,7 @@
+.top15{
+    display: flex;
+    justify-content: space-between;
+}
 .column {
     padding-top: 20px;
     padding-bottom: 10px;
