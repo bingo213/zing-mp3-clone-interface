@@ -1,0 +1,32 @@
+.type{
+    display: flex;
+    justify-content: space-between;
+}
+.type .list-be, .type .container, .type img{
+    width: 190px;
+    height: 112.6px;
+}
+
+.type .container{
+    position: relative;
+}
+
+.type .text{
+    width: 190px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+.type .text a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.list-be:hover .text{
+    top: 40%;
+}

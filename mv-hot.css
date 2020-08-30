@@ -1,0 +1,90 @@
+.wrap-lr{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* left  */
+.left img, .left .list-be, .left .container, .left .overlay{
+    width: 608px;
+    height: 343px;
+}
+
+.left {
+    position: relative;
+}
+
+.left .infor{
+    width: 608px;
+}
+
+.left .name, .left .singer, .left .wrap-info{
+    background-color: transparent;
+}
+
+.left .infor{
+    height: 85px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 7px;
+    background: rgb(34,34,34);
+    background: linear-gradient(0deg, rgba(34,34,34,0.9559174011401436) 0%, rgba(250,250,250,0) 100%);
+}
+
+.left .wrap-info{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.left .name{
+    color: #fff;
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+.left .singer{
+    font-size: 14px;
+}
+
+.left .overlay{
+    background-color: rgba(27, 27, 27, 0.26);
+}
+
+.list-be:hover .infor{
+    opacity: 0;
+}
+
+/* right */
+.col .list-be{
+    width: 190px;
+    height: 152px;
+    margin-bottom: 20px;
+}
+.col img, .col .container, .col .overlay{
+    width: 190px;
+    height: 107px;
+    border-radius: 4px;
+}
+.col .info .song-name{
+    width: 190px;
+    padding-top: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.col .info .song-name a{
+    color: #32323d;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+.info .singer a{
+    color: #a0a0a0;
+    font-size: 12px;
+}
+
+.info .song-name a:hover, .info .singer a:hover {
+    color: #6e55b4;
+}
